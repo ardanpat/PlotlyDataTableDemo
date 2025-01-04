@@ -19,7 +19,7 @@ clicking the `Fire` button will not change the selection status of the row.
 Clone/download the repository and run it using `R Studio` or `R script`. Any required libraries will be installed when the script is run unless they have been already installed.
 To run it from the command line (assuming you have `R script` installed and PROJECT_DIR is where the project has been installed, e.g., "./PlotlyDataTableDemo"):
 ```
-R -e "shiny::runApp(PROJECT_DIR)
+R -e "shiny::runApp(PROJECT_DIR)"
 ```
 The required uninstalled libraries will be downloaded and installed and when the script is running you will be given a URL that has to be copy and pasted into a web browser. Here is a small snippet of a typical output:
 ```
@@ -30,3 +30,8 @@ Loading required package: vroom
 
 Listening on http://127.0.0.1:4859
 ```
+## Usage
+A live demo of the app can be found at [https://patwar.shinyapps.io/plotlydatatabledemo].
+
+## License
+
