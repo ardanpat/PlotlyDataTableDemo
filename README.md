@@ -31,7 +31,7 @@ Loading required package: vroom
 Listening on http://127.0.0.1:4859
 ```
 ## Usage
-A live demo of the app can be found at [https://patwar.shinyapps.io/PlotlyDataTableDemo/].
+A live demo of the app can be found at [https://patwar.shinyapps.io/PlotlyDataTableDemo/](https://patwar.shinyapps.io/PlotlyDataTableDemo/).
 
 ## License
 The project is distributed under the `Apache-2.0` license and the details can be found in the [LICENSE file](./LICENSE).
