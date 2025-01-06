@@ -3,7 +3,7 @@
 This is a Shiny app built on top R script to demo the use case of being able to interactively select points from a plot and have these added to a data table. We use the [Plotlty library](https://plotly.com) for displaying 
 plot as it provides functionality zoom and pan the chart, and hover on points out of the box. The app augments the functionality with interactive clicking on points to add them to a table. The table is implemented
 using the [Data Table library](https://rstudio.github.io/DT/).
-![Screenshot of the PlotlyDataTableDemo in action](/doc/PlotlyDataTableDemo in Action.png)
+![Screenshot of the PlotlyDataTableDemo in action](doc/PlotlyDataTableDemo%20in%20Action.png)
 ## Key Implemention Features
 * The `onRender` event handler of Plotly is coupled to the `setInputValue` function of Shiny to handle click events on the plot on the Shiny server.
 * The `ID` column in the table has a dummy hyperlink to demo how hyperlinks may be implemented.
